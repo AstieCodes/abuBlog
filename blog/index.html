@@ -43,30 +43,46 @@
                           <div class="row gy-5">
                             <!-- first blog post-->
                             <div class="col-12 card p-4 shadow blogLeft">
-                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-1">
                                     <h1>Location</h1>
                                     <p class="blogTitle"> <span class="font-weight-bold">Title description,</span> Date </p>
                                 </div>
-                                <figure class="blogImage mb-5">
+                                <figure class="blogImage mb-3">
                                       <img src="images/writingTurkey.JPG" class="img-fluid shadow">
                                 </figure>
                                 <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, laboriosam pariatur aliquam eaque nemo minima aliquid voluptas modi accusamus, et tempora facere voluptates corporis dolorem, deserunt doloribus sunt aperiam. Sequi.</p>
                                 <!-- Like and Reply buttons-->
 
                                 <div class="d-flex justify-content-between leftButton">
-                                </div>
+                                <!-- orginally the div placed aboved ended right away abruptly-->
                                 <div>
                                 <button class="leftButtonLike" id="likeButton">
                                   <i class="fas fa-heart">Love!</i>
                                 </button>
                                 </div>
                                 <div>
-                                  <button class="rightButtonReply" onclick="reply('reply)'">
+                                  <!-- javascript -->
+                                  <button class="rightButtonReply" onclick="reply('reply1')">
+                                    <!-- no badge -->
                                     <i class="fas fa-heart">Reply!</i>
                                   </button>
                                   </div>
+                                </div>                               
+                                <!--reply section-->
+                                <div class="replies" id="reply1">
+                                    <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-2 pt-2">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img src="images/smallPakistan.jpg">
+                                        </div>
+                                        <div class="replY_text__left">
+                                          <p class="blog_title">
+                                            <span class="font-weight-bold"> Asad </span> September 6th, 2020 3:33 PM 
+                                          </p>
+                                          <p>Looking good Abu!</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                  
                               </div>
                           </div>
                       </div>
